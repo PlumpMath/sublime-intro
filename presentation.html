@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2010 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+
+  landslide modifications: Adam Zapletal (adamzap@gmail.com)
+                           Nicolas Perriault (nperriault@gmail.com)
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title><a href="http://www.sublimetext.com/">Sublime Text 2</a></title>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" media="print" href="file:///usr/lib/python2.7/site-packages/landslide/themes/default/css/print.css">
+    <link rel="stylesheet" media="screen, projection" href="file:///usr/lib/python2.7/site-packages/landslide/themes/default/css/screen.css">
+    
+    
+    <!-- /Styles -->
+    <!-- Javascripts -->
+    
+    <script type="text/javascript" src="file:///usr/lib/python2.7/site-packages/landslide/themes/default/js/slides.js"></script>
+    
+    
+    <!-- /Javascripts -->
+</head>
+<body>
+  <div id="blank"></div>
+  <div class="presentation">
+    <div id="current_presenter_notes">
+      <div id="presenter_note"></div>
+    </div>
+    <div class="slides">
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1><a href="http://www.sublimetext.com/">Sublime Text 2</a></h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              1/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h1>Landslide</h1></header>
+            
+            
+            <section><p><a href="http://adamzap.com/misc/presentation.html#slide2">Github</a></p>
+<p>Generate HTML5 slideshows from markdown, ReST, or textile.</p>
+<p>Landslide is primarily written in Python, but it's themes use:</p>
+<ul>
+<li>HTML5</li>
+<li>Javascript</li>
+<li>CSS</li>
+</ul>
+<h1>Installation</h1>
+<div class="highlight"><pre><span class="lineno">1</span> pip install landslide
+<span class="lineno">2</span> landslide this.md
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              2/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Blogs</h1></header>
+            
+            
+            <section><p><a href="http://lucifr.com/139225/sublime-text-2-tricks-and-tips/">Sublime Text 2 入门及技巧</a></p>
+<p><a href="http://www.iplaysoft.com/sublimetext.html">Sublime Text 2 - 性感无比的代码编辑器</a></p>
+<p><a href="http://motype.org/2012/07/sublime-text-2-intro/">Sublime Text 2 - 好用的跨平台代码编辑器 Part.1 介绍</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              3/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h1>Installation</h1></header>
+            
+            
+            <section><p><a href="http://www.sublimetext.com/buy">Buy...</a></p>
+<p><a href="http://www.sublimetext.com/download">Download</a></p>
+<div class="highlight"><pre><span class="lineno">1</span> wget http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1%20x64.tar.bz2
+</pre></div>
+
+<p><a href="https://launchpad.net/~webupd8team/+archive/sublime-text-2">PPA “WebUpd8” team - Sublime Text 2</a></p>
+<div class="highlight"><pre><span class="lineno">1</span> sudo add-apt-repository ppa:webupd8team/sublime-text-2 
+<span class="lineno">2</span> sudo apt-get update
+<span class="lineno">3</span> sudo apt-get install sublime-text-dev
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              4/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>UI</h1></header>
+            
+            
+            <section><h2>Python Console</h2>
+<pre><code>ctrl backquote
+
+view.settings().get('font_face')
+sublime.packages_path()
+</code></pre>
+<h2>Command Palette</h2>
+<pre><code>shift + command + p
+</code></pre>
+<h2>Goto Anything</h2>
+<pre><code>command + p
+# 文件的内容
+@ active buffer
+: 指定行数
+</code></pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              5/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1><a href="reference">Reference</a></h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              6/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h1>Settings</h1></header>
+            
+            
+            <section><p>Preferences -&gt; Settings - Default</p>
+<p>Preferences -&gt; Settings - User</p>
+<div class="highlight"><pre><span class="lineno"> 1</span> <span class="p">{</span>
+<span class="lineno"> 2</span>   <span class="nt">&quot;font_face&quot;</span><span class="p">:</span> <span class="s2">&quot;wenquanyi micro hei mono&quot;</span><span class="p">,</span>
+<span class="lineno"> 3</span>   <span class="nt">&quot;font_size&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+<span class="lineno"> 4</span>   <span class="nt">&quot;ignored_packages&quot;</span><span class="p">:</span>
+<span class="lineno"> 5</span>   <span class="p">[</span>
+<span class="lineno"> 6</span>     <span class="s2">&quot;Vintage&quot;</span><span class="p">,</span>
+<span class="lineno"> 7</span>     <span class="s2">&quot;BracketHighlighter&quot;</span>
+<span class="lineno"> 8</span>   <span class="p">],</span>
+<span class="lineno"> 9</span>   <span class="nt">&quot;indent_guide_options&quot;</span><span class="p">:</span>
+<span class="lineno">10</span>   <span class="p">[</span>
+<span class="lineno">11</span>     <span class="s2">&quot;draw_active&quot;</span>
+<span class="lineno">12</span>   <span class="p">],</span>
+<span class="lineno">13</span>   <span class="nt">&quot;tab_size&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+<span class="lineno">14</span>   <span class="nt">&quot;translate_tabs_to_spaces&quot;</span><span class="p">:</span> <span class="kc">true</span>
+<span class="lineno">15</span> <span class="p">}</span>
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              7/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1><a href="http://wbond.net/sublime_packages/package_control">Sublime Package Control</a></h1></header>
+            
+            
+            <section><ul>
+<li><a href="https://github.com/wuub/SublimeREPL">SublimeREPL</a></li>
+<li><a href="https://github.com/kemayo/sublime-text-2-git/wiki">sublime-text-2-git</a></li>
+<li><a href="http://www.sublimetext.com/docs/2/vintage.html">Vintage Mode</a></li>
+<li><a href="https://github.com/facelessuser/BracketHighlighter">BracketHighlighter</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Develop</h1></header>
+            
+            
+            <section><pre><code>~/.config/sublime-text-2
+</code></pre>
+<p><a href="http://www.sublimetext.info/">Sublime Info - Information about Sublime Text 2</a></p>
+<p><a href="http://docs.sublimetext.info/en/latest/index.html">Sublime Text Unofficial Documentation</a></p>
+<p><a href="http://www.sublimetext.com/docs/2/">Sublime Text 2 Documentation</a></p>
+<p><a href="https://tutsplus.com/course/improve-workflow-in-sublime-text-2/">Perfect Workflow in Sublime Text 2</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              9/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h1>Shorcuts</h1></header>
+            
+            
+            <section><p>Preferences -&gt; Key Bindings - Default</p>
+<p>Preferences -&gt; Key Bindings - User</p>
+<div class="highlight"><pre><span class="lineno"> 1</span> <span class="p">{</span>
+<span class="lineno"> 2</span>   <span class="nt">&quot;keys&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;[&quot;</span><span class="p">],</span>
+<span class="lineno"> 3</span>   <span class="nt">&quot;command&quot;</span><span class="p">:</span> <span class="s2">&quot;insert_snippet&quot;</span><span class="p">,</span>
+<span class="lineno"> 4</span>   <span class="nt">&quot;args&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="lineno"> 5</span>     <span class="nt">&quot;contents&quot;</span><span class="p">:</span> <span class="s2">&quot;[$0]&quot;</span>
+<span class="lineno"> 6</span>   <span class="p">},</span>
+<span class="lineno"> 7</span>   <span class="nt">&quot;context&quot;</span><span class="p">:</span> <span class="p">[{</span>
+<span class="lineno"> 8</span>     <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;setting.auto_match_enabled&quot;</span><span class="p">,</span>
+<span class="lineno"> 9</span>     <span class="nt">&quot;operator&quot;</span><span class="p">:</span> <span class="s2">&quot;equal&quot;</span><span class="p">,</span>
+<span class="lineno">10</span>     <span class="nt">&quot;operand&quot;</span><span class="p">:</span> <span class="kc">true</span>
+<span class="lineno">11</span>   <span class="p">},</span> <span class="p">{</span>
+<span class="lineno">12</span>     <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;selection_empty&quot;</span><span class="p">,</span>
+<span class="lineno">13</span>     <span class="nt">&quot;operator&quot;</span><span class="p">:</span> <span class="s2">&quot;equal&quot;</span><span class="p">,</span>
+<span class="lineno">14</span>     <span class="nt">&quot;operand&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+<span class="lineno">15</span>     <span class="nt">&quot;match_all&quot;</span><span class="p">:</span> <span class="kc">true</span>
+<span class="lineno">16</span>   <span class="p">},</span> <span class="p">{</span>
+<span class="lineno">17</span>     <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;following_text&quot;</span><span class="p">,</span>
+<span class="lineno">18</span>     <span class="nt">&quot;operator&quot;</span><span class="p">:</span> <span class="s2">&quot;regex_contains&quot;</span><span class="p">,</span>
+<span class="lineno">19</span>     <span class="nt">&quot;operand&quot;</span><span class="p">:</span> <span class="s2">&quot;^(?:\t| |\\)|]|;|\\}|$)&quot;</span><span class="p">,</span>
+<span class="lineno">20</span>     <span class="nt">&quot;match_all&quot;</span><span class="p">:</span> <span class="kc">true</span>
+<span class="lineno">21</span>   <span class="p">}]</span>
+<span class="lineno">22</span> <span class="p">}</span>
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              10/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>实用快捷键</h1></header>
+            
+            
+            <section><p><a href="http://lucifr.com/139235/sublime-text-2-useful-shortcuts/">Sublime Text 2 实用快捷键</a></p>
+<p><a href="http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html">Keyboard Shortcuts - Windows/Linux</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              11/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Search</h1></header>
+            
+            
+            <section><h2>ctrl d</h2>
+<ul>
+<li>ctrl u</li>
+<li>ctrl k</li>
+</ul>
+<h2>ctrl f</h2>
+<ul>
+<li>f2</li>
+<li>shift f2</li>
+<li>alt f2</li>
+</ul>
+<h2>ctrl shift f</h2>
+<ul>
+<li>f4</li>
+<li>shift f4</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              12/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slide.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Other</h1></header>
+            
+            
+            <section><ul>
+<li>ctrl alt q 录制和结束录制宏</li>
+<li>ctrl alt shift q 播放宏</li>
+</ul>
+<h2>多个光标</h2>
+<ul>
+<li>alt shift up</li>
+<li>ctrl mouse</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slide.md">slide.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              13/13
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="toc" class="sidebar hidden">
+    <h2>Table of Contents</h2>
+    <table>
+      <caption>Table of Contents</caption>
+      
+      <tr id="toc-row-1">
+        <th><a href="#slide1"><a href="http://www.sublimetext.com/">Sublime Text 2</a></a></th>
+        <td><a href="#slide1">1</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-2">
+        <th><a href="#slide2">Landslide</a></th>
+        <td><a href="#slide2">2</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-3">
+        <th><a href="#slide3">Blogs</a></th>
+        <td><a href="#slide3">3</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-4">
+        <th><a href="#slide4">Installation</a></th>
+        <td><a href="#slide4">4</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-5">
+        <th><a href="#slide5">UI</a></th>
+        <td><a href="#slide5">5</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-6">
+        <th><a href="#slide6"><a href="reference">Reference</a></a></th>
+        <td><a href="#slide6">6</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-7">
+        <th><a href="#slide7">Settings</a></th>
+        <td><a href="#slide7">7</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-8">
+        <th><a href="#slide8"><a href="http://wbond.net/sublime_packages/package_control">Sublime Package Control</a></a></th>
+        <td><a href="#slide8">8</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-9">
+        <th><a href="#slide9">Develop</a></th>
+        <td><a href="#slide9">9</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-10">
+        <th><a href="#slide10">Shorcuts</a></th>
+        <td><a href="#slide10">10</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-11">
+        <th><a href="#slide11">实用快捷键</a></th>
+        <td><a href="#slide11">11</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-12">
+        <th><a href="#slide12">Search</a></th>
+        <td><a href="#slide12">12</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-13">
+        <th><a href="#slide13">Other</a></th>
+        <td><a href="#slide13">13</a></td>
+      </tr>
+      
+      
+    </table>
+  </div>
+  
+  <div id="help" class="sidebar hidden">
+    <h2>Help</h2>
+    <table>
+      <caption>Help</caption>
+      <tr>
+        <th>Table of Contents</th>
+        <td>t</td>
+      </tr>
+      <tr>
+        <th>Exposé</th>
+        <td>ESC</td>
+      </tr>
+      <tr>
+        <th>Full screen slides</th>
+        <td>e</td>
+      </tr>
+      <tr>
+        <th>Presenter View</th>
+        <td>p</td>
+      </tr>
+      <tr>
+        <th>Source Files</th>
+        <td>s</td>
+      </tr>
+      <tr>
+        <th>Slide Numbers</th>
+        <td>n</td>
+      </tr>
+      <tr>
+        <th>Toggle screen blanking</th>
+        <td>b</td>
+      </tr>
+      <tr>
+        <th>Show/hide slide context</th>
+        <td>c</td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>Help</th>
+        <td>h</td>
+      </tr>
+    </table>
+  </div>
+  <script>main()</script>
+</body>
+</html>
