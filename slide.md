@@ -7,7 +7,7 @@
 
 # Landslide
 
-[Github](http://adamzap.com/misc/presentation.html#slide2)
+[Github](https://github.com/adamzap/landslide)
 
 Generate HTML5 slideshows from markdown, ReST, or textile.
 
@@ -78,7 +78,7 @@ Landslide is primarily written in Python, but it's themes use:
 
 ---
 
-# [Reference](reference)
+# [Reference][reference]
 
 [reference]: https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/reference.html
 
